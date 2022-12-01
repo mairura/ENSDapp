@@ -1,9 +1,9 @@
 # ENSDapp
 #Tech Stack Used
-ReactJS
-Solidity & Hardhat 
-Ethers
-IPFS Filecoin for NFT storage
+ - ReactJS
+ - Solidity & Hardhat 
+ - Ethers
+ - IPFS Filecoin for NFT storage
 
 # Use Case
 A Dapp that allows one to set up a domain name for their website in that it stores the domain name in an NFT which point out to their website.
