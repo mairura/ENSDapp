@@ -39,7 +39,7 @@ contract Domains is ERC721URIStorage {
     address payable public owner;
 
     //Set to payable so that the owner can be able to receive payments
-    constructor (string memory _tld) ERC721 ("Velas Name Service", "VNS") payable {
+    constructor (string memory _tld) ERC721 ("Fantom Name Service", "FNS") payable {
         owner = payable(msg.sender);
         tld = _tld;
         console.log("%s name service deployed", _tld);
@@ -51,11 +51,11 @@ contract Domains is ERC721URIStorage {
         require(len > 0);
         //You can set your own price
         if(len == 3) {
-            return 0.1 * 10**17;
-        }else if(len == 4) {
-            return 0.01 * 10**17;
-        }else {
             return 0.001 * 10**17;
+        }else if(len == 4) {
+            return 0.0001 * 10**17;
+        }else {
+            return 0.00001 * 10**17;
         }
     }
 
@@ -84,7 +84,7 @@ contract Domains is ERC721URIStorage {
         string memory json = Base64.encode(
             abi.encodePacked( '{"name": "',
             _name,
-            '", "description": "A domain on the nGeni name service", "image": "data:image/svg+xml;base64,',
+            '", "description": "A domain on the Fantom name service", "image": "data:image/svg+xml;base64,',
             Base64.encode(bytes(finalSvg)),
             '","length":"',
             strLen,
