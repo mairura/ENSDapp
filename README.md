@@ -8,9 +8,9 @@
 A Dapp that allows one to set up a domain name for their website in that it stores the domain name in an NFT which point out to their website.
 
 Profitability
-This reduces the cost of paying for a domain either monthly or annually. 
-One is only able to pay for deployment gas and a small fee for the NFT.
-There is no fear of domain getting blocked down as it stored permanetly on the blockchain.
+- This reduces the cost of paying for a domain either monthly or annually. 
+- One is only able to pay for deployment gas and a small fee for the NFT.
+- There is no fear of domain getting blocked down as it stored permanetly on the blockchain.
 
 # How it works
 It supports crypto connection to any chain of choise. but preferably we consider polygon.
