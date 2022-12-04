@@ -1,4 +1,3 @@
-# ENSDapp
 #Tech Stack Used
  - ReactJS
  - Solidity & Hardhat 
@@ -17,5 +16,5 @@ It supports crypto connection to any chain of choise.
 Whenever one is connected, they are able to set up there domain names which have a prefix extention according to the deployed smart contract.
 That can also change according to diffrent preferences and redeployment of the smart contract.
 
-#Future Plans
-Implement buying and selling of NFT domain names and change ownership from seller to buyer.
+#Demo
+https://fantomns.netlify.app/
