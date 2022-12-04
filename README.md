@@ -1,4 +1,4 @@
-#T ech Stack Used
+# Tech Stack Used
  - ReactJS
  - Solidity & Hardhat 
  - Ethers
